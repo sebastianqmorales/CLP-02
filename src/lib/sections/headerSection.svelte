@@ -11,9 +11,7 @@
         Powerful content algorithm, voting, moderation and monetization. Take
         charge of your feed - and finally control your mind.
       </p>
-      <button class="btn btn-primary text-2xl font-normal"
-        >Sign up for out beta</button
-      >
+      <button class="btn text-2xl font-normal">Sign up</button>
     </div>
     <div class="mockup-window border border-base-300">
       <div class="border-t border-base-300">
