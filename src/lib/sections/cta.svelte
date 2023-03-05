@@ -8,6 +8,6 @@
   </p>
   <div class="flex gap-4 justify-center">
     <!-- <button class="btn btn-primary">Learn more</button> -->
-    <button class="btn btn-primary">Get Started</button>
+    <button class="btn btn-primary text-white">Get Started</button>
   </div>
 </div>
