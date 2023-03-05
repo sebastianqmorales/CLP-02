@@ -2,7 +2,7 @@
   import CuatexLogo from "$lib/assets/CuatexFullLogo.svg";
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 px-20 py-4">
   <div class="flex-1">
     <a href="/">
       <img src={CuatexLogo} alt="Cuatex Logo" />

@@ -13,7 +13,7 @@
       icon: ContentIcon,
       title: "Content Tags",
       content:
-        "Understand everyone perspective quickly, escape echo chambers and understand all sides",
+        "Understand everyone perspective quickly, escape echo chambers and understand all sides.",
     },
     {
       icon: VotingIcon,
