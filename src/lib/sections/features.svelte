@@ -1,11 +1,54 @@
 <script>
   import ContentIcon from "$lib/assets/ContentTagsIcon.svg";
   import VotingIcon from "$lib/assets/VotingIcon.svg";
+  import DataIcon from "$lib/assets/DataDignityIcon.svg";
+  import TransactionsIcon from "$lib/assets/MicroTransactionsIcon.svg";
+  import AlgorithmIcon from "$lib/assets/AlgorithmIcon.svg";
+  import VerificationIcon from "$lib/assets/VerificationIcon.svg";
 
   import FeatureCards from "../components/featureCards.svelte";
+
+  let props = [
+    {
+      icon: ContentIcon,
+      title: "Content Tags",
+      content:
+        "Understand everyone perspective quickly, escape echo chambers and understand all sides",
+    },
+    {
+      icon: VotingIcon,
+      title: "Voting",
+      content:
+        "Interact and vote on content. Never be blindsided by hidden dislikes or ratioed upvotes.",
+    },
+    {
+      icon: DataIcon,
+      title: "Data Dignity",
+      content:
+        "Own your data and opt-into our data union program to earn money from your usage of the platform.",
+    },
+    {
+      icon: TransactionsIcon,
+      title: "Microtransactions",
+      content:
+        "No ads ever! Earn money from sharing your perspective via comments, data, posts, feeds and more.",
+    },
+    {
+      icon: AlgorithmIcon,
+      title: "Algorithm Control",
+      content:
+        "Use the “Feed Editor” to reveal the hidden influences, agencies and governments behind the news.",
+    },
+    {
+      icon: VerificationIcon,
+      title: "Human Verification",
+      content:
+        "Your credentials incentivize productive and fun discussions. Verification is not for sale.",
+    },
+  ];
 </script>
 
-<div class="hero min-h-screen bg-base-200 py-10">
+<div class="hero min-h-screen bg-base-100 py-10">
   <div class="hero-content text-center flex flex-col gap-12">
     <div class="max-w-6xl">
       <p class="text-xl font-bold text-orange-500">Features</p>
@@ -14,55 +57,9 @@
         Tools that allow you to easily own your social media experience.
       </p>
     </div>
-    <div class="grid grid-cols-3 gap-5">
-      <div class="item_container flex flex-col">
-        <img class="icon" src={ContentIcon} alt="icons" />
-        <div class="title">Data Dignity</div>
-        <div class="content">
-          Own your data and opt-into our data union program to earn money from
-          your usage of the platform.
-        </div>
-      </div>
-      <div class="item_container flex flex-col">
-        <img class="icon" src={ContentIcon} alt="icons" />
-        <div class="title">Data Dignity</div>
-        <div class="content">
-          Own your data and opt-into our data union program to earn money from
-          your usage of the platform.
-        </div>
-      </div>
-      <div class="item_container flex flex-col">
-        <img class="icon" src={ContentIcon} alt="icons" />
-        <div class="title">Data Dignity</div>
-        <div class="content">
-          Own your data and opt-into our data union program to earn money from
-          your usage of the platform.
-        </div>
-      </div>
-      <div class="item_container flex flex-col">
-        <img class="icon" src={ContentIcon} alt="icons" />
-        <div class="title">Microtransactions</div>
-        <div class="content">
-          No ads ever! Earn money from sharing your perspective via comments,
-          data, posts, feeds and more.
-        </div>
-      </div>
-      <div class="item_container flex flex-col">
-        <img class="icon" src={ContentIcon} alt="icons" />
-        <div class="title">Algorithm Control</div>
-        <div class="content">
-          Use the “Feed Editor” to reveal the hidden influences, agencies and
-          governments behind the news.
-        </div>
-      </div>
-      <div class="item_container flex flex-col">
-        <img class="icon" src={ContentIcon} alt="icons" />
-        <div class="title">Human Verification</div>
-        <div class="content">
-          Your credentials incentivize productive and fun discussions.
-          Verification is not for sale.
-        </div>
-      </div>
+
+    <div class="grid grid-cols-3 gap-10">
+      <FeatureCards {props} />
     </div>
   </div>
 </div>

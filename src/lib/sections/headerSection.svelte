@@ -3,7 +3,7 @@
   import Mockup2 from "$lib/assets/HomePageMockup.svg";
 </script>
 
-<div class="hero min-h-screen bg-base-200 py-10">
+<div class="hero min-h-screen bg-base-100 py-10">
   <div class="hero-content text-center flex flex-col gap-12">
     <div class="max-w-6xl">
       <h1 class="text-6xl font-bold">Own the internet, own your mind.</h1>
