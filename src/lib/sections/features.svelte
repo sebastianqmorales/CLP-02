@@ -37,7 +37,7 @@
       icon: AlgorithmIcon,
       title: "Algorithm Control",
       content:
-        "Use the “Feed Editor” to reveal the hidden influences, agencies and governments behind the news.",
+        "Use the “Feed Editor” to control the content you see, avoid clickbait and platform bias.",
     },
     {
       icon: VerificationIcon,
