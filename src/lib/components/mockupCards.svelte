@@ -21,7 +21,9 @@
           src={props.topIcon}
           alt={props.title}
         />
-        <h1 class="text-center md:text-left text-5xl px-5 font-bold">
+        <h1
+          class="text-center md:text-left text-3xl md:text-5xl px-5 font-bold"
+        >
           {props.title}
         </h1>
         <p class="text-center md:text-left py-6 px-5 text-lg">
@@ -44,7 +46,9 @@
           src={props.topIcon}
           alt={props.title}
         />
-        <h1 class="text-center md:text-left text-5xl px-5 font-bold">
+        <h1
+          class="text-center md:text-left text-3xl md:text-5xl px-5 font-bold"
+        >
           {props.title}
         </h1>
         <p class="text-center md:text-left py-6 px-5 text-lg">
