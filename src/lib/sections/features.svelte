@@ -58,7 +58,7 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-3 gap-10">
+    <div class="flex flex-col gap-3 md:grid md:grid-cols-3 md:gap-10">
       <FeatureCards {props} />
     </div>
   </div>
