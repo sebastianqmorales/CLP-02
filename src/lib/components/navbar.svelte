@@ -29,8 +29,8 @@
         tabindex="0"
         class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
       >
-        <li><a href="/">Careers</a></li>
-        <li><a href="/">Mission</a></li>
+        <li><a href="/careers">Careers</a></li>
+        <li><a href="/mission">Mission</a></li>
       </ul>
     </div>
     <a href="/">
@@ -39,8 +39,8 @@
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="/">Careers</a></li>
-      <li><a href="/">Mission</a></li>
+      <li><a href="/careers">Careers</a></li>
+      <li><a href="/mission">Mission</a></li>
     </ul>
   </div>
   <div class="navbar-end">
