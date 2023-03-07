@@ -38,7 +38,9 @@
   <div class="hero-content text-center">
     <div class="flex flex-col gap-6 items-center">
       <h1 class="text-5xl font-bold">Frequently asked questions</h1>
-      <p class="py-6 text-xl">Everything you need to get started today.</p>
+      <p class="text-[#475467] py-6 text-xl">
+        Everything you need to get started today.
+      </p>
       <Dropdown {props} />
     </div>
   </div>

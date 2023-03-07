@@ -6,7 +6,7 @@
 
 <div class="flex flex-col items-center">
   <h1 class="text-4xl md:text-6xl font-bold text-center">Own the platform</h1>
-  <p class="py-6 px-5 text-xl text-center">
+  <p class="text-[#475467] py-6 px-5 text-xl text-center">
     We give you the tools to own your social media feed. Build the experience
     you want, own your data and avoid platform bias.
   </p>
@@ -26,13 +26,13 @@
         >
           {props.title}
         </h1>
-        <p class="text-center md:text-left py-6 px-5 text-lg">
+        <p class="text-[#475467] text-center md:text-left py-6 px-5 text-lg">
           {props.content}
         </p>
         {#each props.iconDescription as description}
           <div class="flex gap-4 md:gap-2 items-center my-4 px-5 md:px-0">
             <img src={CheckIcon} alt="Check Icon" />
-            <div class="text-lg">{description}</div>
+            <div class="text-[#475467] text-lg">{description}</div>
           </div>
         {/each}
       </div>
@@ -51,13 +51,13 @@
         >
           {props.title}
         </h1>
-        <p class="text-center md:text-left py-6 px-5 text-lg">
+        <p class="text-[#475467] text-center md:text-left py-6 px-5 text-lg">
           {props.content}
         </p>
         {#each props.iconDescription as description}
           <div class="flex gap-4 md:gap-2 items-center my-4 px-5 md:px-0">
             <img src={CheckIcon} alt="Check Icon" />
-            <div class="text-lg">{description}</div>
+            <div class="text-[#475467] text-lg">{description}</div>
           </div>
         {/each}
       </div>

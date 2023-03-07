@@ -20,7 +20,7 @@
     <div class="collapse-title text-xl text-left font-medium">
       {props.question}
     </div>
-    <div class="collapse-content text-lg text-left">
+    <div class="text-[#475467] collapse-content text-lg text-left">
       <p>{props.answer}</p>
     </div>
   </div>
