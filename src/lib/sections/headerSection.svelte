@@ -6,7 +6,9 @@
 <div class="hero min-h-screen bg-base-100 py-0 lg:py-10">
   <div class="hero-content text-center flex flex-col gap-12">
     <div class="max-w-6xl">
-      <h1 class="text-6xl font-bold">Own the internet, own your mind.</h1>
+      <h1 class="text-4xl md:text-6xl font-bold">
+        Own the internet, own your mind.
+      </h1>
       <p class="pb-6 pt-3 text-2xl">
         Powerful content algorithm, voting, moderation and monetization. Take
         charge of your feed - and finally control your mind.

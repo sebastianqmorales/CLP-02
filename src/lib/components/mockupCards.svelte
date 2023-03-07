@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-col items-center">
-  <h1 class="text-6xl font-bold text-center">Own the platform</h1>
+  <h1 class="text-4xl md:text-6xl font-bold text-center">Own the platform</h1>
   <p class="py-6 px-5 text-xl text-center">
     We give you the tools to own your social media feed. Build the experience
     you want, own your data and avoid platform bias.

@@ -52,7 +52,7 @@
   <div class="hero-content text-center flex flex-col gap-12">
     <div class="max-w-6xl">
       <p class="text-xl font-bold text-orange-500">Features</p>
-      <h1 class="text-6xl font-bold">A people-first experience.</h1>
+      <h1 class="text-4xl md:text-6xl font-bold">A people-first experience.</h1>
       <p class="py-6 text-2xl">
         Tools that allow you to easily own your social media experience.
       </p>
