@@ -3,6 +3,7 @@
   import MicrotransactionsMockup from "$lib/assets/MicrotransactionsMockup.svg";
   import FeedEditorMockup from "$lib/assets/FeedEditorMockup.svg";
   import CensorshipMockup from "$lib/assets/CensorshipMockup.svg";
+  import CommentCardMockup from "$lib/assets/CommentCardMockup.svg";
   import Icon1 from "$lib/assets/VotingIcon.svg";
   import Icon2 from "$lib/assets/MicroTransactionsIcon.svg";
   import Icon3 from "$lib/assets/AlgorithmIcon.svg";
@@ -10,7 +11,7 @@
   let props = [
     {
       topIcon: Icon1,
-      icon: CensorshipMockup,
+      icon: CommentCardMockup,
       title: "User-powered moderation",
       content:
         "Completely control the platform with voting, censoring and content tagging. ",

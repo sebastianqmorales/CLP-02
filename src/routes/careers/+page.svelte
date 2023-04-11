@@ -1,9 +1,20 @@
+<script>
+  import LinkedInIcon from "$lib/assets/LinkedInIcon.svg";
+</script>
+
 <div class="hero min-h-screen bg-base-100 py-0 lg:py-10">
   <div class="hero-content text-center flex flex-col gap-12">
     <div class="max-w-6xl">
-      <h1 class="text-6xl font-bold">Coming soon</h1>
-      <p class="pb-6 pt-3 text-2xl">
-        In the mean time, feel free to leave us some feedback.
+      <h1 class="text-6xl font-bold">Careers page coming soon</h1>
+      <p class="pb-6 pt-3 text-2xl flex">
+        In the mean time <a
+          class="linkedin-link"
+          href="https://www.linkedin.com/company/cuatex"
+        >
+          follow us on LinkedIn
+          <img src={LinkedInIcon} alt="linked in icon" />
+        </a>
+        or feel free to leave us some feedback.
       </p>
       <form
         class="flex flex-col gap-5"
@@ -38,10 +49,23 @@
         <input
           for="my-modal"
           type="submit"
-          class="btn btn-primary  text-white w-[50%] self-center"
+          class="btn btn-primary text-white w-[50%] self-center"
           value="Submit"
         />
       </form>
     </div>
   </div>
 </div>
+
+<style>
+  .linkedin-link {
+    display: flex;
+    gap: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .linkedin-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #fe7b43;
+  }
+</style>

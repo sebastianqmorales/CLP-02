@@ -14,8 +14,8 @@
 {#each props as props, index}
   {#if index % 2 === 0}
     <div class="md:flex flex-row-reverse justify-between items-center py-20">
-      <img class="basis-2/5" src={props.icon} alt={props.title} />
-      <div class="flex flex-col  py-5 md:px-10">
+      <img class="h-[700px] w-auto" src={props.icon} alt={props.title} />
+      <div class="flex flex-col py-5 md:px-10">
         <img
           class="mb-5 self-center md:self-start"
           src={props.topIcon}
@@ -40,7 +40,7 @@
   {:else}
     <div class="md:flex justify-between items-center py-20">
       <img class="basis-2/5" src={props.icon} alt={props.title} />
-      <div class="flex flex-col  py-5 md:px-10">
+      <div class="flex flex-col py-5 md:px-10">
         <img
           class="mb-5 self-center md:self-start"
           src={props.topIcon}
