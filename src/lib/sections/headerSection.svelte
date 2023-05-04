@@ -19,7 +19,7 @@
       <p class="text-[#475467] pb-6 pt-3 text-2xl">
         Our microtransaction based platform allows everyone to earn money. Earn
         from your regular usage data, popular comments, creator content, custom
-        algorithm and more.
+        algorithms and more.
       </p>
       <!-- <button class="btn btn-primary text-white">Sign up</button> -->
       <label for="my-modal" class="btn btn-primary text-white"
