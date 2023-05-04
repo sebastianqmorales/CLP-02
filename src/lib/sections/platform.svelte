@@ -10,6 +10,18 @@
 
   let props = [
     {
+      topIcon: Icon2,
+      icon: MicrotransactionsMockup,
+      title: "Support content with microtransactions",
+      content:
+        "Avoid ads altogether by supporting your favorite creators. Earn money from your comments and data.",
+      iconDescription: [
+        "Price your creator content as low as half of a cent or as high as you want.",
+        "Earn money from upvotes on your popular comments. You can earn as much as you get upvoted, each vote is $0.005. Ten thousand upvotes would be $50.",
+        "Our pay per view and microtransaction model allows you to participate in the internet economy with no restrictions.",
+      ],
+    },
+    {
       topIcon: Icon1,
       icon: CommentCardMockup,
       title: "User-powered moderation",
@@ -19,18 +31,6 @@
         "Always see the opposing perpsective.",
         "Censor inappropriate content and get paid for it.",
         "Vote on important platform decisions.",
-      ],
-    },
-    {
-      topIcon: Icon2,
-      icon: MicrotransactionsMockup,
-      title: "Support content with microtransactions",
-      content:
-        "Avoid ads altogether by supporting your favorite creators. Earn money from your comments and data.",
-      iconDescription: [
-        "Microtransactions incentivizes moderation and good content.",
-        "Earn money from your regular usage data.",
-        "Avoid all targeted ads and own your data.",
       ],
     },
     {

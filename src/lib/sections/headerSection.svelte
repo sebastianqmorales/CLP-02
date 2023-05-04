@@ -6,15 +6,25 @@
 <div class="hero min-h-screen bg-base-100 py-0 lg:py-10">
   <div class="hero-content text-center flex flex-col gap-12">
     <div class="max-w-6xl">
+      <!-- <h1 class="text-4xl md:text-6xl font-bold">
+        Own the internet, own your mind.
+      </h1> -->
       <h1 class="text-4xl md:text-6xl font-bold">
         Own the internet, own your mind.
       </h1>
-      <p class="text-[#475467] pb-6 pt-3 text-2xl">
+      <!-- <p class="text-[#475467] pb-6 pt-3 text-2xl">
         Powerful content algorithm, voting, moderation and monetization. Take
         charge of your feed - and finally control your mind.
+      </p> -->
+      <p class="text-[#475467] pb-6 pt-3 text-2xl">
+        Our microtransaction based platform allows everyone to earn money. Earn
+        from your regular usage data, popular comments, creator content, custom
+        algorithm and more.
       </p>
       <!-- <button class="btn btn-primary text-white">Sign up</button> -->
-      <label for="my-modal" class="btn btn-primary text-white">Sign up</label>
+      <label for="my-modal" class="btn btn-primary text-white"
+        >Reserve your handle</label
+      >
     </div>
     <div class="mockup-window border border-base-300">
       <div class="border-t border-base-300">
@@ -66,7 +76,7 @@
       <input
         for="my-modal"
         type="submit"
-        class="btn btn-primary  text-white w-[50%] self-center"
+        class="btn btn-primary text-white w-[50%] self-center"
         value="Submit"
       />
     </form>

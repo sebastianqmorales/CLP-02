@@ -46,8 +46,8 @@
   <div class="navbar-end">
     <label
       for="my-modal"
-      class=" border border-primary p-3 rounded-md bg-primary  text-white text-sm"
-      >SIGN UP</label
+      class=" border border-primary p-3 rounded-md bg-primary text-white text-sm"
+      >Reserve your handle</label
     >
     <!-- <a
       class=" border border-primary p-3 rounded-md bg-primary  text-white text-sm"
@@ -97,7 +97,7 @@
       <input
         for="my-modal"
         type="submit"
-        class="btn btn-primary  text-white w-[50%] self-center"
+        class="btn btn-primary text-white w-[50%] self-center"
         value="Submit"
       />
     </form>
