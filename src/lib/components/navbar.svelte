@@ -46,7 +46,7 @@
   <div class="navbar-end">
     <label
       for="my-modal"
-      class=" border border-primary p-3 rounded-md bg-primary text-white text-sm"
+      class=" border border-primary p-3 rounded-md bg-primary text-white text-sm cursor-pointer"
       >Reserve your handle</label
     >
     <!-- <a
