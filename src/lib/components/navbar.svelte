@@ -31,6 +31,7 @@
       >
         <li><a href="/careers">Careers</a></li>
         <li><a href="/mission">Mission</a></li>
+        <li><a href="/creators">Creators</a></li>
       </ul>
     </div>
     <a href="/">
@@ -41,6 +42,7 @@
     <ul class="menu menu-horizontal px-1">
       <li><a href="/careers">Careers</a></li>
       <li><a href="/mission">Mission</a></li>
+      <li><a href="/creators">Creators</a></li>
     </ul>
   </div>
   <div class="navbar-end">
