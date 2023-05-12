@@ -5,6 +5,8 @@
   let props = [
     {
       jobTitle: "Fullstack Software Engineer",
+      jobExcerpt:
+        "Have the opportunity to make important engineering decisions, contribute to product development, architecture and more.",
       description:
         "We're Cuatex, a content platform that gives users complete control over algorithms, monetization, and moderation. We're currently looking for a few outstanding individuals to join our team and help us revolutionize the way we interact with the online world.",
       jobWork: [
@@ -32,6 +34,8 @@
     },
     {
       jobTitle: "Marketing Specialist",
+      jobExcerpt:
+        "Tell great stories about how we are challenging the status quo. Define marketing intiatives, strategy and execute on them.",
       description:
         "We're Cuatex, a content platform that gives users complete control over algorithms, monetization, and moderation. We're currently looking for a few outstanding individuals to join our team and help us revolutionize the way we interact with the online world.",
       jobWork: [
@@ -57,6 +61,17 @@
   ];
 </script>
 
+<h1 class="text-4xl md:text-6xl font-bold text-center">Open positions</h1>
+<p
+  class="text-[#475467] pt-3 sm:px-[30px] sm:text-lg lg:px-[450px] lg:text-2xl text-center"
+>
+  Cuatex is all about giving users control over their internet experience and
+  ending platform manipulation and bias. We want to bridge the gap between data
+  miners and users, giving users the chance to control their data and earn their
+  data dignity. Our vision is to democratize the internet, increase
+  participation in the internet economy, and empower users to take
+  responsibility for their online experience.
+</p>
 <CardModal {props} />
 
 <!-- <div class="hero min-h-screen bg-base-100 py-0 lg:py-10">
