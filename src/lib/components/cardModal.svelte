@@ -1,5 +1,9 @@
 <script>
   import { each } from "svelte/internal";
+  import marketingBadge from "$lib/assets/marketing-badge.svg";
+  import devBadge from "$lib/assets/dev-badge.svg";
+  import remoteIcon from "$lib/assets/remote-icon.svg";
+  import partimeIcon from "$lib/assets/part-time-icon.svg";
 
   export let props;
 </script>
@@ -7,18 +11,46 @@
 {#each props as props, index}
   <div class="flex flex-col my-10">
     <div
-      class="card w-96 border-solid border-[1px] border-[#fe7b43] drop-shadow-lg self-center"
+      class="card md:w-[700px] border-solid border-b-[1px] border-t-[1px] border-neutrals rounded-none drop-shadow-lg self-center"
     >
-      <div class="card-body items-center text-center">
-        <h2 class="card-title">{props.jobTitle}</h2>
+      <div class="card-body px-0 gap-4">
+        <div class="flex flex-row gap-4">
+          <h2 class="card-title text-left">{props.jobTitle}</h2>
+          {#if props.jobTitle === "Marketing Specialist"}
+            <img
+              class="h-5 w-auto self-center"
+              src={marketingBadge}
+              alt="marketing badge"
+            />
+          {:else}
+            <img
+              class="h-5 w-auto self-center"
+              src={devBadge}
+              alt="marketing badge"
+            />
+          {/if}
+        </div>
         <p>
-          {props.description}
+          {props.jobExcerpt}
         </p>
-        <div class="card-actions justify-end">
+        <div class="flex flex-row justify-between">
           <!-- <button class="btn btn-primary">Learn more</button> -->
+          <div class="flex flex-row gap-4">
+            <img
+              class="h-5 w-auto self-center"
+              src={remoteIcon}
+              alt="remote icon"
+            />
+            <img
+              class="h-5 w-auto self-center"
+              src={partimeIcon}
+              alt="part time icon"
+            />
+          </div>
+
           <label
             for={`job-modal-${index}`}
-            class=" border border-primary p-3 rounded-md bg-primary text-white text-sm cursor-pointer"
+            class="p-3 rounded-md text-primary font-bold tracking-wide text-md cursor-pointer hover:bg-primary hover:text-white"
             >Learn more</label
           >
         </div>
@@ -38,12 +70,7 @@
         {props.jobTitle}
       </div>
       <div class="Cuatex-description text-center text-lg pt-4">
-        Cuatex is all about giving users control over their internet experience
-        and ending platform manipulation and bias. We want to bridge the gap
-        between data miners and users, giving users the chance to control their
-        data and earn their data dignity. Our vision is to democratize the
-        internet, increase participation in the internet economy, and empower
-        users to take responsibility for their online experience.
+        {props.description}
       </div>
       <div>
         <div class="font-bold">Culture</div>
