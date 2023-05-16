@@ -17,9 +17,10 @@
         charge of your feed - and finally control your mind.
       </p> -->
       <p class="text-[#475467] pb-6 pt-3 text-2xl">
-        Our microtransaction based platform allows everyone to earn money. Earn
-        from your regular usage data, popular comments, creator content, custom
-        algorithms and more.
+        Our microtransaction based platform allows everyone to earn money from
+        their comments, content and data. Enjoy high quality content and engage
+        in meaningful conversations. While completely owning your data and
+        experience.
       </p>
       <!-- <button class="btn btn-primary text-white">Sign up</button> -->
       <label for="my-modal" class="btn btn-primary text-white"
