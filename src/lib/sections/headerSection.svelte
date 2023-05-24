@@ -9,9 +9,7 @@
       <!-- <h1 class="text-4xl md:text-6xl font-bold">
         Own the internet, own your mind.
       </h1> -->
-      <h1 class="text-4xl md:text-6xl font-bold">
-        Own the internet, own your mind.
-      </h1>
+      <h1 class="text-4xl md:text-6xl font-bold">Own your mind.</h1>
       <!-- <p class="text-[#475467] pb-6 pt-3 text-2xl">
         Powerful content algorithm, voting, moderation and monetization. Take
         charge of your feed - and finally control your mind.
