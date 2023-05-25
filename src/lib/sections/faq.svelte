@@ -29,7 +29,7 @@
     {
       question: "Is there a creator discount?",
       answer:
-        "If you are a content creator that signs up for our Beta release, you will recieve a larger revenue split, when you onboard your audience onto our platform your split will get higher. Sign up today for this early adpoter offer.",
+        "If you are a content creator that signs up for our Beta release, you will recieve a larger revenue split, when you onboard your audience onto our platform your split will get higher. Sign up today for this early adopter offer.",
     },
   ];
 </script>
