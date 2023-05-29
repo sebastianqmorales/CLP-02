@@ -30,7 +30,7 @@
       info: [
         "Job is part time remote, very flexible in both hours and what you are working on. Please apply regardless of your skill level.",
       ],
-      applicationLink: "https://forms.office.com/r/8RCCZr588j",
+      applicationLink: "We are no longer taking applicants",
     },
     {
       jobTitle: "Marketing Specialist",
@@ -56,7 +56,7 @@
       info: [
         "Job is part time remote, very flexible in both hours and what you are working on. Please apply regardless of your skill level.",
       ],
-      applicationLink: "https://forms.office.com/r/t0qE7MSNpG",
+      applicationLink: "We are no longer taking applicants",
     },
   ];
 </script>
