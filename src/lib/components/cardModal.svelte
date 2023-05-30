@@ -115,7 +115,7 @@
           Please apply for this position by filling out the following form:
         </div>
         <a class="appLink" href={props.applicationLink}>
-          Click this link to fill out the application form.
+          We are no longer accepting applications.
         </a>
         <div class="description">
           We will contact you soon if you fit the criteria for this role. Thank
