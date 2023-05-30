@@ -4,7 +4,7 @@
   let props = [
     {
       question: "How do I sell my data?",
-      answer: `We offer a "Data Union" program that allows you to opt-in to selling your data. You can choose what data you want to sell, and of course we do not sell anything identifyable or any credenitals you upload`,
+      answer: `We offer a Data Union program that allows you to opt-in to selling your data. You can choose what data you want to sell, and of course we do not sell anything identifyable or any credenitals you upload`,
     },
     {
       question:
@@ -19,7 +19,7 @@
     },
     {
       question: "How does the algorithm work?",
-      answer: `We allow you to create your algrithm with our "Feed Editor", we do not force you content rather allow you to curate your custom algorithm. We do this by giving you access to all the data points that create an algorithm.`,
+      answer: `We allow you to create your algrithm with our Feed Editor, we do not force you content rather allow you to curate your custom algorithm. We do this by giving you access to all the data points that create an algorithm.`,
     },
     {
       question: "Is there a free trial?",
