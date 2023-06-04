@@ -1,6 +1,6 @@
 <script>
   import LinkedInIcon from "$lib/assets/LinkedInIcon.svg";
-  import CardModal from "../../lib/components/cardModal.svelte";
+  import CardModal from "$lib/components/cardModal.svelte";
 
   let props = [
     {

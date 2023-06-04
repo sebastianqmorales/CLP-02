@@ -1,8 +1,10 @@
 <script>
   import LinkedInIcon from "$lib/assets/LinkedInIcon.svg";
   import InstagramIcon from "$lib/assets/instagram.svg";
+  import MissionNavbar from "./missionNavbar.svelte";
 </script>
 
+<MissionNavbar />
 <div class="flex flex-col items-center gap-10 py-20">
   <h1 class="text-4xl md:text-6xl font-bold text-center">Our Mission</h1>
   <p
