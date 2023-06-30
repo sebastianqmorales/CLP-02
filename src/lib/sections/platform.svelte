@@ -22,6 +22,17 @@
       ],
     },
     {
+      topIcon: Icon3,
+      icon: FeedEditorMockup,
+      title: "Control your algorithm",
+      content: `Tune your algorithm with our "Feed editor". Avoid rabbit holes and distractions. Get the content you want`,
+      iconDescription: [
+        "Filter and drilldown on the type of content you want to see.",
+        "Avoid clickbait.",
+        "Hone down on your niche and own your genre.",
+      ],
+    },
+    {
       topIcon: Icon1,
       icon: CommentCardMockup,
       title: "User-powered moderation",
@@ -31,17 +42,6 @@
         "Always see the opposing perpsective.",
         "Censor inappropriate content and get paid for it.",
         "Vote on important platform decisions.",
-      ],
-    },
-    {
-      topIcon: Icon3,
-      icon: FeedEditorMockup,
-      title: "Control your algorithm",
-      content: `Tune your algorithm with our "Feed editor". Avoid rabbit holes and distractions. Get the content you want`,
-      iconDescription: [
-        "Filter and drilldown on the type of content you want to see.",
-        "Avoid clickbait.",
-        "Hone down on your niche and own your genre.",
       ],
     },
   ];

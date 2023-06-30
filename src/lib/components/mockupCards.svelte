@@ -14,7 +14,11 @@
 {#each props as props, index}
   {#if index % 2 === 0}
     <div class="md:flex flex-row-reverse justify-between items-center py-20">
-      <img class="h-[700px] w-auto" src={props.icon} alt={props.title} />
+      <img
+        class="h-[600px] w-auto md:h-[400px] md:w-auto xl:h-[700px] xl:w-auto"
+        src={props.icon}
+        alt={props.title}
+      />
       <div class="flex flex-col py-5 md:px-10">
         <img
           class="mb-5 self-center md:self-start"
